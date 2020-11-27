@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta  name ="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOTEL </title>
+<style>
+
+body{
+  background-color:orange ;
+}
+
+h1{
+text-align:center;
+}
+h2{
+
+background-color:dark;
+font-size:50;
+font-family:verdana;
+}
+h4{
+color:red;
+font-family:microsoft;
+font-size:30px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: red;
+}
+li.tiwari{
+display: block;
+  color: white;
+margin-left:1000px;
+}
+li.tiwari1{
+display: block;
+  color: white;
+margin-left:0px;
+}
+div.block{
+border:5px solid green;
+padding:0px;
+margin:auto  ;
+width:100%;
+
+}
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(window).bind("resize", resizeWindow);
+    function resizeWindow(e){
+      var newWindowWidth = $(window).width();
+
+      // If width width is below 600px, switch to the mobile stylesheet
+      if(newWindowWidth < 600){        $("link[rel=stylesheet]").attr({href : "mobile.css"});        }       // Else if width is above 600px, switch to the large stylesheet       else if(newWindowWidth > 600){
+        $("link[rel=stylesheet]").attr({href : "style.css"});
+      }
+    }
+  });
+</script>
+
+</style>
+</head>
+<body>
+<h1  style = "color:blue" >  Tiwari Hotels</h1>
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="news.html">News</a></li>
+  <li><a href="contact_us.html">Contact us</a></li>
+  <li><a href="about_us.html">About us</a></li>
+   <li  class="tiwari"><a  class="tiwari" href="sign_up.html">sign_up</a></li>
+ <li  class="tiwari1"><a  class="tiwari" href="login.html">login</a></li>
+
+</ul>
+<h2> Tiwari Hotels Welcomes you ,Have a Good day</h2><marquee direction="left "  style ="color:BLUE";"background-color:red" ><mark>This Hotel gives 20% discount to the military and B.S.F.  Persons</mark> </marquee></br>
+<img src="C:\Users\Awanish tiwari\Desktop\hotel.jpg" alt = "Hotel"; width="600px";height="500px" align="right">
+<h4 >This is a great hotel in lucknow and rated 5 star </h4>
+<p style ="font-size:25px;color:darkchocolate">We Welcome our customers, join us and Visit again </p>
+<h3><b>  Book through  cards</b><a href="www.tiwa	rihotels.com">click Here</a> </h3>
+<p style ="color:gray;font-size:20px">Get 20% discount on first booking </p>
+<br>
+<p style="font-size:30px">We also provides</p><h3 style="color:blue">Resorts ~~   Lawns 	~~	Rooms	  ~~	 Apartments   ~~   Guest house 	     </h3>
+
+<video width="700px";height="300px" controls>
+ <source src ="C:\Users\Awanish tiwari\Desktop\hotels.mp4"  type = "video/mp4" >
+ your browser does not support video tag
+ </video>
+ <img src="C:\Users\Awanish tiwari\Desktop\awa2.jpg" alt = "Hotel"; width="780px";height=" 250px" align="right">
+
+<form>
+<b> Fill the detailed info for about your requirement</b></br>
+
+<i>Destination</i>  <input type = "text" name ="Des">
+<i>Date </i>  <input type = "text"  name = "date ">
+<i>Rooms-Type(AC or NON AC) </i>  <input type ="text"  name = "type">
+<i>Room-required  </i><input type = "text" name = "required ">
+<a href = "iframe.html" target = "blank" >Click Here to search</a>
+
+
+
+</form>
+
+
+<p style = "background-color:tomato"><em>Hotels.com is a leading online accommodation site. We’re passionate about travel. Every day we inspire and reach millions of travellers across 90 local websites in 41 languages. So when it comes to booking the perfect hotel, holiday rental, resort, apartment, guest house or treehouse - we’ve got you covered. With hundreds of thousands of properties in over 200 countries and territories, we provide incomparable choice with a Price Guarantee. Our site is fun and simple to use and we offer innovative online tools and a top rated mobile app.</em></p>
+</hr>
+
+ </body>
+ </html>
